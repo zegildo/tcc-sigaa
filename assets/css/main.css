@@ -3714,7 +3714,11 @@
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 2.5em;
+					}
+
+					#banner .content header p {
+						font-size: 1.25em;
 					}
 
 					#banner .content .image {
@@ -3759,7 +3763,7 @@
 
 				#titleBar .title {
 					color: #ffffff;
-					display: block;
+					display: none;
 					font-weight: 300;
 					height: 44px;
 					line-height: 44px;
@@ -3777,12 +3781,13 @@
 					left: 0;
 					position: absolute;
 					top: 0;
+					display: none;
 					width: 90px;
 					outline: 0;
 					border: 0;
 				}
 
-					#titleBar .toggle:before {
+					/*#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						font-family: FontAwesome;
@@ -3804,7 +3809,7 @@
 						text-align: center;
 						top: 0;
 						width: 54px;
-					}
+					}*/
 
 			#navPanel {
 				-moz-backface-visibility: hidden;
